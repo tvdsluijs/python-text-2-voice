@@ -1,0 +1,13 @@
+[project]
+name = "python-text-2-voice"
+version = "0.1.0"
+description = "A simple Python script that converts text to speech using the SIRI voices on your MAC."
+authors = ["Theo van der Sluijs <theo@vandersluijs.nl>"]
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[tasks]
+speak = "python speak.py"
+
+[dependencies]
+pydub = ">=0.25.1,<0.26"
